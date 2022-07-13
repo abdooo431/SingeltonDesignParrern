@@ -12,7 +12,7 @@ namespace SingeltonDesignParrern
         private static Singelton instance = null;
         public static Singelton GetInstans
         {
-            get
+            get 
             {
                 if (instance == null)
                 {

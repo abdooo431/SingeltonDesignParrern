@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace SingeltonDesignParrern
 {
@@ -6,14 +7,28 @@ namespace SingeltonDesignParrern
     {
         static void Main(string[] args)
         {
+            Parallel.Invoke(
+                ()=>PrintEmployeeDetails(),
+                ()=>PrintStudentDetails()
+                );
+            
 
-            Singelton oSingeltonEmployee = Singelton.GetInstans;
-            oSingeltonEmployee.PrintDetails("Employee Details");
+                 
+           
+            Console.ReadLine();
+        }
 
+        private static void PrintStudentDetails()
+        {
             Singelton oSingeltonStudent = Singelton.GetInstans;
             oSingeltonStudent.PrintDetails("Student Details");
 
-            Console.ReadLine();
+        }
+
+        private static void PrintEmployeeDetails()
+        {
+            Singelton oSingeltonEmployee = Singelton.GetInstans;
+            oSingeltonEmployee.PrintDetails("Employee Details");
         }
     }
 }
