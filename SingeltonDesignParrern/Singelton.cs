@@ -6,13 +6,25 @@ using System.Threading.Tasks;
 
 namespace SingeltonDesignParrern
 {
-    public class Singelton
+    public sealed class Singelton
     {
         private static int counter = 0;
-        public Singelton()
+        private static Singelton instance = null;
+        public static Singelton GetInstans
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new Singelton();
+                }
+                return instance; 
+            }
+        }
+        private Singelton()
         {
             counter++;
-            Console.WriteLine(counter);
+            Console.WriteLine("counter Value = " + counter);
         }
         public void PrintDetails(string mes)
         {
