@@ -1,0 +1,16 @@
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\SingeltonDesignParrern.exe
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\SingeltonDesignParrern.deps.json
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\SingeltonDesignParrern.runtimeconfig.json
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\SingeltonDesignParrern.runtimeconfig.dev.json
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\SingeltonDesignParrern.dll
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\ref\SingeltonDesignParrern.dll
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\bin\Debug\net5.0\SingeltonDesignParrern.pdb
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.csproj.AssemblyReference.cache
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.AssemblyInfoInputs.cache
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.AssemblyInfo.cs
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.csproj.CoreCompileInputs.cache
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.dll
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\ref\SingeltonDesignParrern.dll
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.pdb
+E:\projects\Tutorial Project\SingeltonDesignParrern\SingeltonDesignParrern\obj\Debug\net5.0\SingeltonDesignParrern.genruntimeconfig.cache

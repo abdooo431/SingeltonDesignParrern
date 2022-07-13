@@ -6,7 +6,14 @@ namespace SingeltonDesignParrern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Singelton oSingeltonEmployee = new Singelton();
+            oSingeltonEmployee.PrintDetails("Employee Details");
+
+            Singelton oSingeltonStudent = new Singelton();
+            oSingeltonStudent.PrintDetails("Student Details");
+
+            Console.ReadLine();
         }
     }
 }
