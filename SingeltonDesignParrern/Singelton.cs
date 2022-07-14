@@ -10,15 +10,24 @@ namespace SingeltonDesignParrern
     {
         private static int counter = 0;
         private static Singelton instance = null;
+        private static readonly object o = new object();
         public static Singelton GetInstans
         {
-            get 
+            get
             {
-                if (instance == null)
+                if (instance is null)
                 {
-                    instance = new Singelton();
+                    lock (o)
+                    {
+                        if (instance == null)
+                        {
+                            instance = new Singelton();
+                        }
+                    }
                 }
-                return instance; 
+
+
+                return instance;
             }
         }
         private Singelton()
