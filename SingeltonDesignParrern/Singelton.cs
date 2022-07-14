@@ -8,9 +8,7 @@ namespace SingeltonDesignParrern
 {
     public sealed class Singelton
     {
-        private static int counter = 0;
         private static readonly Lazy<Singelton> instance = new Lazy<Singelton>(()=>new Singelton());
-        private static readonly object o = new object();
         public static Singelton GetInstans
         {
             get
@@ -20,10 +18,8 @@ namespace SingeltonDesignParrern
         }
         private Singelton()
         {
-            counter++;
-            Console.WriteLine("counter Value = " + counter);
         }
-        public void PrintDetails(string mes)
+    public void PrintDetails(string mes)
         {
             Console.WriteLine(mes);
         }
