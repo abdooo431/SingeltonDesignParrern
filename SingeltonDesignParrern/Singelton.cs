@@ -9,24 +9,12 @@ namespace SingeltonDesignParrern
     public sealed class Singelton
     {
         private static int counter = 0;
-        private static Singelton instance = null;
+        private static readonly Singelton instance = new Singelton();
         private static readonly object o = new object();
         public static Singelton GetInstans
         {
             get
             {
-                if (instance is null)
-                {
-                    lock (o)
-                    {
-                        if (instance == null)
-                        {
-                            instance = new Singelton();
-                        }
-                    }
-                }
-
-
                 return instance;
             }
         }
